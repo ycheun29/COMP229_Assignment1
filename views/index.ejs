@@ -5,26 +5,33 @@ Student ID: 301230209
 Date: Sep 30,2022 
 -->
 
-<%- include partials/header.ejs %> <%- include partials/main_bar.ejs %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/header %>
+  </head>
 
-<div class="content">
-  <h1>Welcome to the Jacky page.</h1>
-  <h2>Mission Statement</h2>
-  <ul>
-    <li>To develop excellent software to my users.</li>
-    <li>To find happiness and fulfillment in everything.</li>
-    <li>To be kind to others and myself.</li>
-    <li>To move abroad and learn more about different cultures.</li>
-    <li>To complete kindness every day and brighten others' day.</li>
-  </ul>
+  <body>
+    <% include partials/menu %>
+    <div class="content">
+      <h1>Welcome to the Jacky page.</h1>
+      <h2>Mission Statement</h2>
+      <ul>
+        <li>To develop excellent software to my users.</li>
+        <li>To find happiness and fulfillment in everything.</li>
+        <li>To be kind to others and myself.</li>
+        <li>To move abroad and learn more about different cultures.</li>
+        <li>To complete kindness every day and brighten others' day.</li>
+      </ul>
 
-  <div class="contactme_div">
-    <a href="contactme">
-      <img class="contactme_img" src="images/contactme.png" />
-      <br />
-      Redirect to contact page.
-    </a>
-  </div>
-</div>
-
-<%- include partials/bottom_bar.ejs %> <%- include partials/footer.ejs %>
+      <div class="contactme_div">
+        <a href="contact">
+          <img class="contactme_img" src="images/contactme.png" />
+          <br />
+          Redirect to contact page.
+        </a>
+      </div>
+    </div>
+    <% include partials/footer %>
+  </body>
+</html>

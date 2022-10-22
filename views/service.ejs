@@ -4,27 +4,37 @@ Studemt Name: Yuk Sing Cheung
 Student ID: 301230209
 Date: Sep 30,2022 
 -->
-<%- include partials/header.ejs %> <%- include partials/main_bar.ejs %>
 
-<div class="content">
-  <h2>Service</h2>
-  <div class="service_row">
-    <div class="service_column">
-      <img class="service_img" src="images/service1.png" />
-      <h4>Web application</h4>
-      <p>Java, C#, Node.js</p>
-    </div>
-    <div class="service_column">
-      <img class="service_img" src="images/service2.png" />
-      <h4>Mobile application</h4>
-      <p>Android</p>
-    </div>
-    <div class="service_column">
-      <img class="service_img" src="images/service3.png" />
-      <h4>Infrastruture</h4>
-      <p>Oracle 11g, IBM DB2</p>
-    </div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/header %>
+  </head>
 
-<%- include partials/bottom_bar.ejs %> <%- include partials/footer.ejs %>
+  <body>
+    <% include partials/menu %>
+
+    <div class="content">
+      <h2>Service</h2>
+      <div class="service_row">
+        <div class="service_column">
+          <img class="service_img" src="images/service1.png" />
+          <h4>Web application</h4>
+          <p>Java, C#, Node.js</p>
+        </div>
+        <div class="service_column">
+          <img class="service_img" src="images/service2.png" />
+          <h4>Mobile application</h4>
+          <p>Android</p>
+        </div>
+        <div class="service_column">
+          <img class="service_img" src="images/service3.png" />
+          <h4>Infrastruture</h4>
+          <p>Oracle 11g, IBM DB2</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <% include partials/footer %>
+  </body>
+</html>

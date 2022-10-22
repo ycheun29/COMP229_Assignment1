@@ -5,36 +5,47 @@ Student ID: 301230209
 Date: Sep 30,2022 
 -->
 
-<%- include partials/header.ejs %> <%- include partials/main_bar.ejs %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/header %>
+  </head>
 
-<div class="content">
-  <h2>Project</h2>
-  <ol>
-    <li>Home automation system</li>
-    <a target="_blank" href="https://www.kactus.com.hk">
-      <img class="project_img" src="images/project1.png" />
-    </a>
-    <p>Android mobile application for controlling home automation products</p>
-    <br />
+  <body>
+    <% include partials/menu %>
+    <div class="content">
+      <h2>Project</h2>
+      <ol>
+        <li>Home automation system</li>
+        <a target="_blank" href="https://www.kactus.com.hk">
+          <img class="project_img" src="images/project1.png" />
+        </a>
+        <p>
+          Android mobile application for controlling home automation products
+        </p>
+        <br />
 
-    <li>Garmet manufactorting system</li>
-    <a target="_blank" href="http://www.talapparel.com">
-      <img class="project_img" src="images/project2.png" />
-    </a>
-    <p>
-      In-house web application for garment manufacturing with Agile methodology
-    </p>
-    <br />
+        <li>Garmet manufactorting system</li>
+        <a target="_blank" href="http://www.talapparel.com">
+          <img class="project_img" src="images/project2.png" />
+        </a>
+        <p>
+          In-house web application for garment manufacturing with Agile
+          methodology
+        </p>
+        <br />
 
-    <li>Enterprise resource planning system</li>
-    <a target="_blank" href="https://itsolution-hk.com">
-      <img class="project_img" src="images/project3.png" />
-    </a>
-    <p>
-      Enhanced existing ERP system in welfare department for daily routine
-      maintenance
-    </p>
-    <br />
-  </ol>
-</div>
-<%- include partials/bottom_bar.ejs %> <%- include partials/footer.ejs %>
+        <li>Enterprise resource planning system</li>
+        <a target="_blank" href="https://itsolution-hk.com">
+          <img class="project_img" src="images/project3.png" />
+        </a>
+        <p>
+          Enhanced existing ERP system in welfare department for daily routine
+          maintenance
+        </p>
+        <br />
+      </ol>
+    </div>
+    <% include partials/footer %>
+  </body>
+</html>

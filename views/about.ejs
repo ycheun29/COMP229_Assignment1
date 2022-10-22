@@ -5,27 +5,36 @@ Student ID: 301230209
 Date: Sep 30,2022 
 -->
 
-<%- include partials/header.ejs %> <%- include partials/main_bar.ejs %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/header %>
+  </head>
 
-<div class="content">
-  <h2>About me</h2>
-  <div>
-    <img class="about_img" src="images/selfie.jpeg" />
-    <p id="about_txt">
-      My name is Yuk Sing Cheung. I am born and raised in Hong Kong. I am
-      studying the software engineering technician in Centennial College. I love
-      programming very much. After I grauduate the diploma in here, I decided to
-      find a professional job and development my career in software development.
-    </p>
-  </div>
+  <body>
+    <% include partials/menu %>
+    <div class="content">
+      <h2>About me</h2>
+      <div>
+        <img class="about_img" src="images/selfie.jpeg" />
+        <p id="about_txt">
+          My name is Yuk Sing Cheung. I am born and raised in Hong Kong. I am
+          studying the software engineering technician in Centennial College. I
+          love programming very much. After I grauduate the diploma in here, I
+          decided to find a professional job and development my career in
+          software development.
+        </p>
+      </div>
 
-  <div class="resume_div">
-    <a target="_blank" href="resume.pdf">
-      <img class="resume_img" src="images/resume_icon.jpeg" />
-      <br />
-      Here is my resume
-    </a>
-  </div>
-</div>
+      <div class="resume_div">
+        <a target="_blank" href="resume.pdf">
+          <img class="resume_img" src="images/resume_icon.jpeg" />
+          <br />
+          Here is my resume
+        </a>
+      </div>
+    </div>
 
-<%- include partials/bottom_bar.ejs %> <%- include partials/footer.ejs %>
+    <% include partials/footer %>
+  </body>
+</html>

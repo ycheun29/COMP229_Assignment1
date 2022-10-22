@@ -3,170 +3,156 @@ Studemt Name: Yuk Sing Cheung
 Student ID: 301230209
 Date: Sep 30,2022  */
 
-.site-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-.site-header a {
-  color: #999;
-  transition: ease-in-out color 0.15s;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
 body {
-  font: 20px Inter, sans-serif;
+    background-color: #020711;
+    color: #ffffff;
+    margin: 0px 150px 0px 150px;
+    font: 20px Inter, sans-serif;
 }
 
 .banner {
-  background-image: url("/images/banner1.jpeg");
-  background-color: #020711;
-  /* Used if the image is unavailable */
-  height: 350px;
-  /* You must set a specified height */
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */
-  text-align: center;
-  font-size: 18px;
-  padding: 100px 0px 20px 0px;
-  color: white;
+    background-image: url("/images/banner1.jpeg");
+    background-color: #020711;
+    /* Used if the image is unavailable */
+    height: 350px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    text-align: center;
+    font-size: 18px;
+    padding: 100px 0px 20px 0px;
+    color: white;
 }
 
 .menuDiv {
-  float: left;
-  width: 100%;
+    background-color: #020711;
+    float: left;
+    width: 100%;
 }
 
 .menuTable,
-.menuTable > th,
-.menuTable > td {
-  width: 100%;
-  border: 10px solid white;
-  border-collapse: collapse;
+.menuTable>th,
+.menuTable>td {
+    width: 100%;
+    border: 10px solid white;
+    border-collapse: collapse;
 }
 
 .content {
-  padding: 10px 100px 10px 100px;
+    padding: 10px 100px 10px 100px;
 }
 
 footer {
-  font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-.menuBar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menuBar > li {
-  float: left;
+    font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  display: block;
-  margin-left: 30px;
-  padding: 10px;
+    color: #ffffff;
+}
+
+.menuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuBar>li {
+    float: left;
+}
+
+a {
+    display: block;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: #020711;
 }
 
 .about_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 .resume_img,
 .contactme_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
 
 .resume_div,
 .contactme_div {
-  text-align: center;
-  padding: 50px;
-  text-decoration: none;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
 }
 
 .project_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
 }
 
 h2 {
-  text-decoration: underline;
-}
-h1 {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 
 /* Create three equal columns that floats next to each other */
 
 .service_column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px;
-  /* Should be removed. Only for demonstration */
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
 }
+
 
 /* Clear floats after the columns */
 
 .service_row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .service_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
 }
 
-.service_column > h4,
-.service_column > p {
-  text-align: center;
+.service_column>h4,
+.service_column>p {
+    text-align: center;
 }
 
 .contact_form {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 input,
 textarea {
-  width: 100%;
+    width: 100%;
+    font-size: 24px;
 }
 
 .menu_icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60px;
-}
-
-.divLogin {
-  padding: 50px 400px 50px 400px;
-}
-
-i,
-a {
-  font-size: 20;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
 }

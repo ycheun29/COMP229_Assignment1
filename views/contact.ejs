@@ -1,0 +1,50 @@
+<!-- 
+File name: contact.ejs
+Studemt Name: Yuk Sing Cheung
+Student ID: 301230209
+Date: Sep 30,2022 
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/header %>
+  </head>
+
+  <body>
+    <% include partials/menu %>
+
+    <div class="content">
+      <h2>Contact</h2>
+
+      <form
+        class="contact_form"
+        action="mailto:ycheun29@my.centennialcollege.ca"
+        method="post"
+      >
+        <div>
+          <label for="fname">First Name</label><br />
+          <input id="fname" type="text" name="fname" />
+        </div>
+        <div>
+          <label for="lname">Last Name</label><br />
+          <input id="lname" type="text" name="lname" />
+        </div>
+        <div>
+          <label for="email">E-mail</label><br />
+          <input id="email" type="email" name="email" />
+        </div>
+        <div>
+          <label for="mobile">Contact number</label><br />
+          <input id="mobile" type="text" name="mobile" />
+        </div>
+        <div>
+          <label for="message">Message</label><br />
+          <textarea name="message" id="message" cols="40" rows="8"></textarea>
+        </div>
+        <input type="submit" value="Send" name="submit" />
+      </form>
+    </div>
+    <% include partials/footer %>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-// File name: server
+// File name: www
 // Studemt Name: Yuk Sing Cheung
 // Student ID: 301230209
 // Date: Sep 30,2022
@@ -9,10 +9,9 @@
  * Module dependencies.
  */
 
-var app = require("./config/app");
+var app = require("../app");
 var debug = require("debug")("assignment1:server");
 var http = require("http");
-var passport = require("passport");
 
 /**
  * Get port from environment and store in Express.
